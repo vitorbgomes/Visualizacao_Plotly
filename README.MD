@@ -44,9 +44,8 @@ Todos os gráficos são **interativos**, permitindo a aplicação de zoom, filtr
 
 Para executar este projeto localmente, siga os passos abaixo:
 
-1. **Clone o repositório**:
-
 ```bash
+Clone o repositório
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Navegue até o diretório do projeto:
