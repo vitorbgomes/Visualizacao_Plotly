@@ -51,14 +51,10 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 Navegue até o diretório do projeto:
 
 bash
-Copiar
-Editar
 cd nome-do-repositorio
 Crie e ative um ambiente virtual (recomendado):
 
 bash
-Copiar
-Editar
 python -m venv venv
 
 # No Windows
@@ -69,16 +65,12 @@ source venv/bin/activate
 Instale as dependências:
 
 bash
-Copiar
-Editar
 pip install -r requirements.txt
 💡 Certifique-se de que o arquivo requirements.txt contém todas as bibliotecas necessárias.
 
 Execute a aplicação:
 
 bash
-Copiar
-Editar
 python app.py
 Acesse o dashboard no navegador:
 Abra seu navegador e acesse http://127.0.0.1:8050/
