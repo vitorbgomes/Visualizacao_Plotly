@@ -1,59 +1,65 @@
-📊 Dashboard Interativo de E-commerce com Dash e Plotly
-🚀 Descrição do Projeto
-Este projeto apresenta um dashboard interativo para análise de dados de e-commerce, desenvolvido com Dash e Plotly em Python. O objetivo é transformar dados brutos de vendas, avaliações e características de produtos em insights visuais claros e estratégicos para a tomada de decisão.
+Dashboard Interativo de E-commerce com Dash e Plotly
+📜 Descrição do Projeto
+Este projeto apresenta um dashboard interativo para a análise de dados de e-commerce, desenvolvido com as bibliotecas Python Dash e Plotly. O objetivo principal é transformar dados brutos de vendas, avaliações e características de produtos em insights visuais claros e estratégicos, auxiliando na tomada de decisão de gestores e analistas.
 
-O dashboard permite explorar diferentes aspectos do negócio, como o desempenho de marcas, as preferências de materiais pelos clientes, a sazonalidade de produtos, a relação entre preço e volume de vendas, entre outros. As visualizações foram cuidadosamente escolhidas para entregar valor real ao gestor, indo além de gráficos genéricos e facilitando a identificação de oportunidades e gargalos operacionais.
+O dashboard permite uma exploração aprofundada de diferentes aspectos do negócio, como o desempenho de marcas, a preferência de materiais pelos clientes, a análise de sazonalidade e a relação entre preço e volume de vendas. As visualizações foram cuidadosamente escolhidas para entregar valor real ao negócio, indo além de gráficos genéricos e facilitando a identificação de oportunidades e gargalos.
 
-✨ Funcionalidades Principais
-O dashboard oferece uma análise completa através dos seguintes gráficos interativos:
+✨ Funcionalidades
+O dashboard é composto por diversos gráficos interativos que permitem uma análise detalhada dos dados:
 
-Top 10 Marcas por Quantidade Vendida: Identifica facilmente as marcas que são líderes de venda.
+📊 Top 10 Marcas por Quantidade Vendida: Identifique rapidamente as marcas líderes em volume de vendas e entenda a participação de cada uma no mercado.
 
-Top 10 Materiais por Nota Média: Descobre quais materiais são mais bem avaliados pelos clientes, indicando preferências de qualidade.
+🌟 Top 10 Materiais por Nota Média: Descubra quais materiais são mais bem avaliados pelos clientes, fornecendo insights para desenvolvimento de produtos e gestão de estoque.
 
-Relação entre Preço e Quantidade Vendida: Analisa o impacto do preço nas vendas e identifica padrões de consumo.
+💲 Relação entre Preço e Quantidade Vendida: Analise o impacto da variação de preços no volume de vendas e encontre o ponto de equilíbrio ideal.
 
-Distribuição de Produtos por Temporada: Visualiza a sazonalidade dos produtos para otimizar estoques e campanhas de marketing.
+☀️ Distribuição de Produtos por Temporada: Visualize a sazonalidade das vendas e planeje campanhas de marketing e promoções de forma mais eficaz.
 
-Relação entre Número de Avaliações e Nota Média: Avalia a confiança e a reputação dos produtos com base no feedback dos usuários.
+⭐ Relação entre Número de Avaliações e Nota Média: Avalie a confiança e a reputação dos produtos, entendendo como o volume de feedback se correlaciona com a satisfação do cliente.
 
-Cada gráfico é totalmente interativo, permitindo aplicar zoom, selecionar dados específicos e filtrar informações diretamente pelo navegador.
+Todos os gráficos são interativos, permitindo a aplicação de zoom, filtros e a seleção de dados específicos diretamente no navegador para uma análise mais granular.
 
-🛠️ Como Usar
-Para executar este projeto localmente, siga os passos abaixo.
+🚀 Tecnologias Utilizadas
+Python: Linguagem de programação principal.
 
-Pré-requisitos
-Python 3.8 ou superior
+Dash: Framework para a criação de aplicações web analíticas.
 
-pip (gerenciador de pacotes do Python)
+Plotly: Biblioteca para a criação de gráficos interativos.
 
-Instalação
+Pandas: Biblioteca para manipulação e análise de dados.
+
+⚙️ Instalação e Execução
+Para executar este projeto localmente, siga os passos abaixo:
+
 Clone o repositório:
 
-bash
+Bash
+
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue até o diretório do projeto:
+
+Bash
+
 cd nome-do-repositorio
 Crie e ative um ambiente virtual (recomendado):
 
-bash
-# Para Windows
-python -m venv .venv
-.\.venv\Scripts\activate
+Bash
 
-# Para macOS/Linux
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv venv
+# No Windows
+venv\Scripts\activate
+# No macOS/Linux
+source venv/bin/activate
 Instale as dependências:
 
-bash
+Bash
+
 pip install -r requirements.txt
+(Nota: Certifique-se de criar um arquivo requirements.txt com as bibliotecas necessárias).
+
 Execute a aplicação:
 
-Certifique-se de que o arquivo ecommerce_estatistica.csv está na raiz do projeto.
+Bash
 
-Inicie o servidor Dash:
-
-bash
 python app.py
-Acesse o dashboard:
-Abra seu navegador e acesse o endereço http://127.0.0.1:8050/.
+Abra seu navegador e acesse http://127.0.0.1:8050/ para visualizar o dashboard.
