@@ -71,7 +71,7 @@ pip install -r requirements.txt
 Execute a aplicação:
 
 bash
-python app.py
+python estatistica_ecomerce.py
 Acesse o dashboard no navegador:
 Abra seu navegador e acesse http://127.0.0.1:8050/
 
